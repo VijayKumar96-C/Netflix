@@ -62,6 +62,36 @@ const HomePage = () => {
                     </video>
                 </div>
             </div>
+            <div class="bg-black flex flex-row" >
+                <div class="relative" >
+                    <img
+                        alt="Mobile"
+                        src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+                    />
+                    <div class=" absolute inset-0 bg-black mt-[330px]  w-80 h-24 ml-40 flex flex-row border border-gray-500 rounded-lg" >
+                        <div class="pt-2 pl-2">
+                            <img
+                                class="w-[57px] h-[80px]"
+                                src='https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png'
+                            />
+                        </div>
+                        <div  class="pt-4 pl-2" >
+                            <b class="text-white">Stranger Things</b>
+                            <p class="text-[#0071eb]" >Downloading...</p>
+                        </div>
+                        <div class="w-12 h-12 mt-6 ml-16" >
+                            <img 
+                            alt="download gif"
+                            src='https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif'
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-52 pb-52 ml-36 w-[579px] text-white" >
+                    <b class="text-5xl font-black" >Download your shows to watch offline</b>
+                    <p class="text-2xl font-normal" >save your favourites easily and always have something to watch.</p>
+                </div>
+            </div>
         </div>
 
     )
