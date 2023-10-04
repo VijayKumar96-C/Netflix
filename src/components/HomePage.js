@@ -2,19 +2,19 @@ import react from 'react'
 import netflixImage from '../img/pngegg.png'
 
 const HomePage = () => {
-    
+
     return (
         <div >
             <div class="h-full w-full" >
-                <div class=' absolute h-screen w-full ' >
-                <div  >
-                <img 
-                class="bg-black bg-opacity-80 absolute inset-0 h-screen w-full"
-                src='https://assets.nflxext.com/ffe/siteui/vlv3/9db4a880-3034-4e98-bdea-5d983e86bf52/b5953637-091d-4e02-9754-2bfadc8a8f7c/IN-en-20230925-popsignuptwoweeks-perspective_alpha_website_large.jpg'
-                    />
-                    <div class="bg-black bg-opacity-70 h-screen w-full absolute inset-0" >      
+                <div class='  h-screen w-full ' >
+                    <div  >
+                        <img
+                            class="bg-black bg-opacity-80 absolute inset-0 h-screen w-full"
+                            src='https://assets.nflxext.com/ffe/siteui/vlv3/9db4a880-3034-4e98-bdea-5d983e86bf52/b5953637-091d-4e02-9754-2bfadc8a8f7c/IN-en-20230925-popsignuptwoweeks-perspective_alpha_website_large.jpg'
+                        />
+                        <div class="bg-black bg-opacity-70 h-screen w-full absolute inset-0" >
+                        </div>
                     </div>
-                </div>
                     <div class="relative z-20 " >
                         <div class="flex justify-between " >
                             <img
@@ -41,8 +41,27 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
-            </div> 
-            
+            </div>
+            <div class="bg-black h-full w-full flex flex-row " >
+                <div class="pt-52 pb-52 ml-36 w-[579px] text-white" >
+                    <b class="text-5xl font-black" >Enjoy on your TV</b>
+                    <p class="text-2xl font-normal"  >Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple Tv, Blu-ray playesr and more</p>
+                </div>
+                <div class="relative" >
+                    <img
+                        class=""
+                        alt='Tv'
+                        src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+                    />
+                    <video autoplay playsinline muted loop
+                        class="absolute inset-0 mt-[100px] ml-[83px] w-[468px]"
+                    >
+                        <source
+                            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"
+                            type="video/mp4" />
+                    </video>
+                </div>
+            </div>
         </div>
 
     )
